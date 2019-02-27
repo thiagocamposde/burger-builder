@@ -17,7 +17,9 @@ const OrderSummary = (props) => {
             <ul>
                 {ingredientsList}
             </ul>
-            <p>Continue to checkout</p>
+            <p>Continue to checkout?</p>
+            <button>CANCEL</button>
+            <button>CONTINUE</button>
         </React.Fragment>
     );
 };
